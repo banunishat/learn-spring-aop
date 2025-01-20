@@ -24,7 +24,7 @@ public class LoggingAspect {
 	
 	@After("execution(* com.in28minutes.learn_spring_aop.aopexample.*.*.*(..))")
 	public void logMethodCallAfterExcution(JoinPoint joinPoint) {
-		logger.info("After Aspect The method is called {}",joinPoint);
+		logger.info("After Aspect The method 1000 is called {}",joinPoint);
 	}
 	
 	@AfterThrowing(
