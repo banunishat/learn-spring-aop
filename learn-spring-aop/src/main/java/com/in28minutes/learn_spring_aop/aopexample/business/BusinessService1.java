@@ -18,7 +18,6 @@ public class BusinessService1 {
 	@TrackTime
 	public int calculateMax() {
 		int[] data = dataService1.retrieveData();
-		System.out.println(data.toString());
 		return Arrays.stream(data).max().orElse(0);
 	}
 
