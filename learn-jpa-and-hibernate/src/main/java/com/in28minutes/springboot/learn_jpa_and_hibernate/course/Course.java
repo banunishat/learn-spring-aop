@@ -31,7 +31,7 @@ public class Course {
 	}
 	@Override
 	public String toString() {
-		return "Course [id=" + id + ", name=" + name + ", author=" + author + "]";
+		return "Course [id=1000" + id + ", name=" + name + ", author=" + author + "]";
 	}
 	public int getId() {
 		return id;
